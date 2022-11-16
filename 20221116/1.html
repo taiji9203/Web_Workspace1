@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB1 - WEB </title>
+<meta charset="utf-8">
+</head>
+<link rel="stylesheet" href="style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<script src="colors.js"></script>
+<body>
+    
+    <h1>
+        <a href="index.html">WEB</a>
+    </h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div id="grid">
+        <ol>
+            <li>
+                <a href="1.html">HTML</a>
+            </li>
+            <li>
+                <a href="2.html">CSS</a>
+            </li>
+            <li>
+                <a href="3.html">JavaScript</a>
+            </li>
+        </ol>
+        <div id="article">
+
+            <input type="button" value="night" onclick="nightDayHandler(this);">
+
+            <h2>HTML이란 무엇인가?</h2>
+                <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" title="HTML5 specification">Hypertext Markup
+                Language(HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web
+                applications.
+                Web browsers receive HTML documents from a web server or from local storage and render the documents into
+                multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the
+                appearance of the document.</p>
+                <img src="coding.jpg" width="100%">
+                <p style="margin-top: 40px;">
+                HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as
+                interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by
+                denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are
+                delineated by tags, written using angle brackets.
+                </p>
+        </div>
+    </div>
+</body>
+</html>
