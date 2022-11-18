@@ -5,42 +5,69 @@
 <meta charset="utf-8">
 
 <link rel="stylesheet" href="style.css" />
+<style>
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, select, button, textarea, p, blockquote, table, th, td {
+margin: 0;
+padding: 0;
+}
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: "Roboto", "Noto Sans KR", "PingFang SC", "Apple SD Gothic Neo", "Microsoft YaHei UI", "Malgun Gothic", sans-serif;
+    min-width: 1200px;
+    color: #000;
+}
+#wrapper {
+    position: relative;
+    min-width: 1200px;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: #f5f3f3;
+}
+header {
+    height: 150px;    
+    border-bottom: 1px cadetblue ;
+}
+#visual {
+    height: 550px;
+    background-color: #d5d0d0;
+}
+#iconMenu {
+    height: 250px;
+    background-color: aquamarine;
+}
+#today {
+    height: 550px;
+    background-color: bisque;
+}
+#recom {
+    height: 550px;
+    background-color:blueviolet;
+}
+#event {
+    height: 550px;
+    background-color: bisque;
+}
+footer {
+    height: 200px;
+    background-color: rgb(153, 104, 43);
+}
+
+</style>
 <script src="colors.js"></script>
 <body>
-    <h1>
-        <a href="index.html">WEB</a>
-    </h1>
-    <div id="grid">
-        <ol>
-            <li>
-                <a href="1.html">HTML</a>
-            </li>
-            <li>
-                <a href="2.html">CSS</a>
-            </li>
-            <li>
-                <a href="3.html">JavaScript</a>
-            </li>
-        </ol>
-        <div id="article">
+    <wrapper>
+        <header>헤더</header>
+        <div id="visual">메인 비주얼</div>
+        <div id="iconMenu">아이콘 메뉴</div>
+        <div id="today">오늘의 선생님</div>
+        <div id="recom">추천 과외 선생님</div>
+        <div id="event">이벤트</div>
+        <footer>카피라이터</footer>
+    </wrapper>
+    
 
-            <input type="button" value="night" onclick="nightDayHandler(this);">
-            <h2>WEB이란 무엇인가?</h2>
-                <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" title="HTML5
-                    specification">Hypertext Markup Language(HTML)</a> is the standard markup language for
-                    <strong>creating <u>web</u> pages</strong> and web applications.
-                    Web browsers receive HTML documents from a web server or from local storage and render the
-                    documents into multimedia web pages. HTML describes the structure of a web page semantically
-                    and originally included cues for the appearance of the document.</p>
-                    <img src="cat.jpg" width="200px">
-                    <p style="margin-top: 40px;">
-                    HTML elements are the building blocks of HTML pages. With HTML constructs, images and other
-                    objects such as interactive forms may be embedded into the rendered page. HTML provides a means
-                    to create structured documents by denoting structural semantics for text such as headings,
-                    paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using
-                    angle brackets.
-                </p>
-        </div>
+
     </div>
 </body>
 </html>
