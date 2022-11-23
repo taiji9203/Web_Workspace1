@@ -1,0 +1,82 @@
+/* NotoSans */
+@font-face {
+    font-family:'NotoSansL';
+    font-style:normal;
+    font-display: swap;
+    src: url('NotoSans-Light.ttf') format('truetype'),
+         url('NotoSans-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family:'NotoSansR';
+    font-style:normal;
+    font-display: swap;
+    src: url('NotoSans-Regular.ttf') format('truetype'),
+         url('NotoSans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family:'NotoSansM';
+    font-style:normal;
+    font-display: swap;
+    src:url('NotoSans-Medium.ttf') format('truetype'),
+         url('NotoSans-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family:'NotoSansB';
+    font-style:normal;
+    font-display: swap;
+    src: url('NotoSans-Bold.ttf') format('truetype'),
+         url('NotoSans-Bold.woff2') format('woff2');
+}
+
+/* Montserrat */
+@font-face {
+   font-family:'MontserratB';
+   font-style:normal;
+   font-display: swap;
+   src: url('Montserrat-Bold.woff') format('woff'),
+        url('Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+   font-family:'MontserratM';
+   font-style:normal;
+   font-display: swap;
+   src: url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+   font-family:'MontserratL';
+   font-style:normal;
+   font-display: swap;
+   src: url('Montserrat-Light.woff') format('woff'),
+        url('Montserrat-Light.ttf') format('truetype');
+}
+@font-face {
+   font-family:'MontserratEL';
+   font-style:normal;
+   font-display: swap;
+   src: url('Montserrat-ExtraLight.woff') format('woff'),
+        url('Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+/* GmarketSans */
+@font-face {
+   font-family:'GmarketSansL';
+   font-style:normal;
+   font-display: swap;
+   src: url('GmarketSansLight.woff') format('woff'),
+        url('GmarketSansLight.ttf') format('truetype');
+}
+@font-face {
+   font-family:'GmarketSansM';
+   font-style:normal;
+   font-display: swap;
+   src: url('GmarketSansMedium.woff') format('woff'),
+        url('GmarketSansMedium.ttf') format('truetype');
+}
+@font-face {
+   font-family:'GmarketSansB';
+   font-style:normal;
+   font-display: swap;
+   src: url('GmarketSansBold.woff') format('woff'),
+        url('GmarketSansBold.ttf') format('truetype');
+}
