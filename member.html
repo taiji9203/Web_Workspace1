@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+<title>나에게 맞는 과외 선생님을 찾아드려요!</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="js/select.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/sprite.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <div id="gnb_sbox">
+            <h1 id="gnb_slogo"><img src="images/logo.png" width="150px" alt="과외쌤" /></h1>
+            <div>
+                <ul>
+                <!--검색-->              
+                <div class="search">
+                    <input type="text" placeholder="검색어 입력">
+                    <img src="images/search01.png">
+                </div>
+                <!--//검색-->
+                </ul>
+            </div>
+            <div id="gnb_log">
+            <ul>
+                <li class="img"><img src="/images/setting.png"  /></li>
+                <li class="txt">고객센터</li>
+                    <li class="txtblank">|</li>
+                    <li class="txt">로그인</li>
+                    <li class="txtblank">|</li>
+                    <li class="txt">회원가입</li>
+                    <li class="txtblank02"></li>
+                <li class="img"><img src="/images/admin.png"  /></li>
+                <li class="txt02">마이페이지</li>
+                    <li class="txtblank">|</li>
+                    <li class="txt02">메시지</li>
+                    <li class="txtblank">|</li>
+                    <li class="txt02">찜하기</li>              
+                </ul>          
+            </div>
+        </div>
+    </div>    
+    <div id="content03">
+        <div class="basic_title">SSAEM 회원가입</div>
+        <div id="login_box">
+            <div id="member_form_box">
+                <ul>                    
+                    <li><input class="form-control basic_form" id="inputEmail" type="code" placeholder="아이디"></li>
+                    <li class="basic_stxt">4~12자의 영문(소문자)과 숫자만 사용할 수 있습니다.</li>
+                </ul>
+            </div>
+            <div id="member_form_box1">
+                <ul>                    
+                    <li><input class="form-control basic_form" id="inputEmail" type="id" placeholder="이름"></li>           
+                    <li><input class="form-control basic_form" id="inputEmail" type="password" placeholder="이메일"></li>               
+                    <li><input class="form-control basic_form" id="inputEmail" type="password" placeholder="비밀번호"></li>
+                    <li class="basic_stxt txt02">6~16자의 영문/숫자/특수문자중 2개 이상의 조합으로 만드셔야 합니다.</li>
+                </ul>
+            </div>
+            <div id="member_form_box2">
+                <ul>                    
+                    <li><input class="form-control basic_form" id="inputEmail" type="code" placeholder="아이디"></li>                    
+                </ul>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                    <p class="basic_stxt"><input type="checkbox" name="jquery_like" id="jquery_like" value="1" />서비스 약관에 동의 합니다</p></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="btn_padding">
+                    <button type="submit" class="btn btn_login">가입하기</button>   
+                </div>
+            </div>                
+        </div>
+    </div>
+</div>
+<!-- 카피라이터 -->
+<div id="footer">
+    <div id="copyright"> 
+        <ul>            
+            <li class="txt">회사소개  |  이용약관  |  개인정보처리방침  |  청소년보호정책  |  채용정보</li>            
+        </ul>
+        <ul>
+            <li class="txt1">대표이사 : 김태우 | 부산광역시 부산진구 백양관문로 | 사업자등록번호 : 615-11-71211</li>
+            <li class="logo"><img src="images/logo02.png" width="150px" alt="과외쌤"/></li>
+            <li class="txt1">대표전화 : 070-7574-9297 | FAX : 070-7574-9297 | 통신판매업신고번호 : 2022-부산부산진-101</li>
+        </ul>
+        <ul>
+            <li class="txt2">Copyright © 2022 SSAEM COMPANY All rights reserved.</li>
+        </ul>
+    </div>
+</div>
+<!--// 카피라이터 -->
+<!-- 체크박스 -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.checkbox.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.defaultP input').ezMark();
+	$('.customP input[type="checkbox"]').ezMark({checkboxCls: 'ez-checkbox', checkedCls: 'ez-checked'})
+});	
+</script>
+<!--// 체크박스 -->
+</body>
+</html>

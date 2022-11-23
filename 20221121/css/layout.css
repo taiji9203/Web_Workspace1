@@ -11,16 +11,17 @@ img {border:0;vertical-align:top;}
 ul {list-style:none; padding:0; margin:0;}
 
 /* 메인 레이아웃 속성 */
-#wrap       { margin:0 auto; width:1000px; }
-#header		{ float:left; width:1000px; height:100%; } 
-#content	{ float:left; width:1000px; height:100%; }
-#others		{ float:left; width:818px; height:100%;  padding:20px 0 0 182px; }
-#banner		{ float:left; width:1000px; height:100%;  margin-top:0px;  }
-#footer     { margin:0 auto; width:100%; background-color: #393939; z-index:99;bottom:0px;left:0px;right:0px;position:absoulte !important; position:fixed;}
+#wrap       { margin: 0 auto; width:1000px; }
+#header		{ margin: 0 auto; float:left; width:1000px; height:150px; }
+#visual		{ margin: 0 auto; float:left; width:1000px; height:350px; }
+#content	{ margin: 0 auto; float:left; width:1000px; height:300px; }
+#others		{ margin: 0 auto; float:left; width:818px; height:200px;  padding:20px 0 0 182px; }
+#banner		{ margin: 0 auto; float:left; width:1000px; height:200px;  margin-top:0px;  }
+#footer     { margin: 0 auto; width:100%; background-color: #393939; z-index:99;bottom:0px;}
 
 /* 서브 레이아웃 속성 */
 
-#s_content	{ float:left; width:100%; height:100%; margin:70px 0 80px 0;}
+#s_content	    { float:left; width:100%; height:100%; margin:70px 0 80px 0;}
 #s_main_view	{ float:left; width:100%; height:100px; margin:0 0 0 0;}
 #s_main_left	{ float:left; width:490px; height:100%; margin:0 10px 0 0;}
 #s_main_right	{ float:right; width:490px; height:100%; margin:0 0 0 10px;}
