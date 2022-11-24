@@ -11,7 +11,7 @@ ul {list-style:none; padding:0; margin:0;}
 
 /*링크*/
 A:link {color:#999999; text-decoration:none;} 
-A:visited {color:#999999 text-decoration:none;} 
+A:visited {color:#999999; text-decoration:none;} 
 A:active {color:#b8b3ad; text-decoration:none;} 
 A:hover {color:#b8b3ad; text-decoration:none;}
 
@@ -61,7 +61,7 @@ A:hover {color:#b8b3ad; text-decoration:none;}
 #member_form_box {float:left; width:100%; padding:0 0 55px 0; height:35px; }
 #member_form_box li.txt	{padding:0 25px 0 0; float:left; line-height:35px;}
 #member_form_box li.form{padding:4px 4px 4px 0; float:right; left:50%; line-height:20px;}
-#member_form_box1 {float:left; width:100%; padding:0 0 20px 0; height:170px; }
+#member_form_box1 {float:left; width:100%; padding:0 0 35px 0; height:170px; }
 #member_form_box2 {float:left; width:100%; padding:0 0 20px 0; height:35px; }
 
 
@@ -415,7 +415,7 @@ ul#topnav li span a:hover {font-weight:bold; text-decoration: none; background-c
 /* 텍스트 유형 */
 
 .basic_txt		{font-size:14px; font-weight:bold; text-decoration:none; color:#7c7c7c;}
-.basic_form		{font-size:13px; font-weight:none; text-decoration:none; color:#bbbbbb;}
+.basic_form		{font-size:13px; font-weight:none; text-decoration:none; color:#bbbbbb; margin: 0 0 10px 0;}
 .basic_stxt		{padding: 0 0 15px 0px;font-size:12px; font-weight:none; text-decoration:none; color:#bbbbbb;}
 .basic_extxt	{font-size:12px; font-weight:none; text-decoration:none; color:#7c7c7c; line-height:30px;}
 .basic_title	{font-size:24px; font-weight:bold; text-decoration:none; color:#333333; text-align: center; padding: 30px;}
